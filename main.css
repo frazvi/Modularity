@@ -115,10 +115,6 @@
 	overflow: hidden;
 }
 
-.Second-Text {
-	overflow: hidden;
-}
-
 /*
 .First-Image {
 	display: inline;
@@ -132,7 +128,9 @@
 	margin: 0 10px 0 0;
 }
 
-
+.Second-Text {
+	overflow: hidden;
+}
 
 .Third-Image-Header {
 	display: inline;

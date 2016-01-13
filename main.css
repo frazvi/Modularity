@@ -1,0 +1,80 @@
+/* ADD YOUR STYLES HERE */
+.first-table td, .first-table th, .second-table td, .second-table th {
+	padding-right: 100px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	border-bottom-style: solid;
+	border-bottom-color: #A9A9A9;
+	border-bottom-width: 1px;
+
+}
+
+
+.instruction-answer tr:last-child td {
+	border-bottom: 0;
+}
+
+.numbers {
+	font-style: bold;
+	font-size: 35px;
+	font-weight: bolder;
+	padding-bottom: 10px;
+	text-align: center;
+	padding-right: 35px;
+	padding-top: 10px;
+}
+
+.words {
+	font-size: 12px;
+	padding-bottom: 12px;
+	color: #A9A9A9;
+	padding-right: 35px;
+
+}
+
+.numbers-table {
+	border-bottom-style: solid;
+	border-bottom-color: #A9A9A9;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-top-color: #A9A9A9;
+	border-top-width: 1px;
+}
+
+.bar-chart div {
+	font: 10px sans-serif bold;
+	background-color: steelblue;
+	text-align: left;
+	padding: 3px;
+	margin: 1px;
+	color: white;
+}
+
+.bar-chart td {
+	width: 900px;
+}
+
+.cupcake-text {
+	vertical-align: middle;
+	margin: auto;
+}
+
+.inner-white-area {
+	border-style: solid;
+	background-color: white;
+	border-color: white;
+}
+
+.outer-gray-area {
+	background: gray;
+	padding: 20px;
+}
+
+.close-button {
+	bacground-color: pink;
+	font-color: white;
+	text-align: right;
+	padding: 2px 10px 2px 10px;
+	border-radius: 5px;
+}
+

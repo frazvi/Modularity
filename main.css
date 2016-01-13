@@ -54,27 +54,51 @@
 	width: 900px;
 }
 
-.cupcake-text {
+.outer-box {
+	background: gray;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.inner-box {
+	margin: auto;
+	margin-left: 25%;
+	width: 50%;
+	top: 50%;
+	background: white;
+	display: block;
+	position: absolute;
+	transform: translateY(-50%);
+	display: block;
+	padding: 20px;
+	border-radius: 20px;
+}
+
+.content {
 	vertical-align: middle;
 	margin: auto;
-}
-
-.inner-white-area {
-	border-style: solid;
+	display: block;
+	width: 100%;
 	background-color: white;
-	border-color: white;
+
 }
 
-.outer-gray-area {
-	background: gray;
-	padding: 20px;
+.close-button button {
+	background-color: #ff6666;
+	padding: 9px 45px 9px 45px;
+	border-radius: 10px;
+	color: white;
+	margin-right: 10px;
 }
 
 .close-button {
-	bacground-color: pink;
-	font-color: white;
 	text-align: right;
-	padding: 2px 10px 2px 10px;
-	border-radius: 5px;
+	font-size: 20px;
+	font-weight: lighter ;
+	
+	
 }
 

@@ -54,6 +54,7 @@
 	width: 900px;
 }
 
+/*
 .outer-box {
 	background: gray;
 	height: 100%;
@@ -98,7 +99,62 @@
 	text-align: right;
 	font-size: 20px;
 	font-weight: lighter ;
-	
-	
+}
+*/
+
+.media-box {
+	display: inline-block;
 }
 
+.media-box img {
+	float: left;
+	padding-right: 10px;
+}
+
+.media-content {
+	overflow: hidden;
+}
+
+.Second-Text {
+	overflow: hidden;
+}
+
+/*
+.First-Image {
+	display: inline;
+	float: left;
+	margin: 0 10px 0 0;
+}
+
+.Second-Image {
+	display: inline;
+	float: left;
+	margin: 0 10px 0 0;
+}
+
+
+
+.Third-Image-Header {
+	display: inline;
+	float: left;
+	margin: 0 10px 0 0;
+}
+
+.Third-Text {
+	overflow: hidden;
+}
+
+.Fourth-Image {
+	display: inline;
+	float: left;
+	padding: 30px;
+}
+
+.Fourth-Text-Header {
+	display: inline-block;
+}
+
+.Fourth-Text {
+	overflow: hidden;
+}
+*/
